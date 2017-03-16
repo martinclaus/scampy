@@ -9,3 +9,15 @@ global arrays toolkit (http://hpc.pnl.gov/globalarrays/) if available. This
 will ensure that most things which are critical for performance are done
 natively in C/C++ with as little overhead as possible.
 """
+
+__VERSION_MAJOR__ = 0
+__VERSION_MINOR__ = 0
+__VERSION_MAINT__ = 1
+
+def get_version():
+    return (__VERSION_MAJOR__, __VERSION_MINOR__, __VERSION_MAINT__)
+
+def get_version_string():
+    return "{}.{}.{}".format(*get_version())
+
+__version__ = get_version()
