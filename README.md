@@ -13,3 +13,4 @@ Actually, SCAMPY will be a modelling frame-work rather than a model. It will
 provide a rather simple API for you to quickly develop your own models. It
 will provide a basic set of operators, such as interpolation operators for
 staggered grids.
+
